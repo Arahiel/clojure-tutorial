@@ -1,0 +1,772 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉tutorial.core꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉tutorial.core꞉> 
+; Evaluating file: 13Namespaces.clj
+nil
+clj꞉user꞉> 
+; Evaluating file: 13Namespaces.clj
+Hello
+nil
+clj꞉tutorial.13Namespaces꞉> 
+; Evaluating file: 13Namespaces.clj
+; Syntax error reading source at (F:\Repozytoria\clojure-tutorial\tutorial\src\tutorial\13Namespaces.clj:2:29).
+; Map literal must contain an even number of forms
+; Evaluation of file 13Namespaces.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉tutorial.13Namespaces꞉> 
+; Evaluating file: 13Namespaces.clj
+; Syntax error reading source at (F:\Repozytoria\clojure-tutorial\tutorial\src\tutorial\13Namespaces.clj:2:29).
+; Map literal must contain an even number of forms
+; Evaluation of file 13Namespaces.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉tutorial.13Namespaces꞉> 
+#'tutorial.13Namespaces/-main
+clj꞉tutorial.13Namespaces꞉> 
+Hello
+nil
+clj꞉tutorial.13Namespaces꞉> 
+; Evaluating file: 13Namespaces.clj
+; Syntax error reading source at (F:\Repozytoria\clojure-tutorial\tutorial\src\tutorial\13Namespaces.clj:2:29).
+; Map literal must contain an even number of forms
+; Evaluation of file 13Namespaces.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉tutorial.13Namespaces꞉> 
+; Evaluating file: 13Namespaces.clj
+Hello
+nil
+clj꞉tutorial.13Namespaces꞉> 
+; Evaluating file: 13Namespaces.clj
+Hello
+nil
+clj꞉tutorial.13Namespaces꞉> 
+; Evaluating file: 13Namespaces.clj
+; WARNING: reverse already refers to: #'clojure.core/reverse in namespace: tutorial.13Namespaces, being replaced by: #'clojure.string/reverse
+; WARNING: replace already refers to: #'clojure.core/replace in namespace: tutorial.13Namespaces, being replaced by: #'clojure.string/replace
+Hello
+nil
+clj꞉tutorial.13Namespaces꞉> 
+; Evaluating file: 13Namespaces.clj
+; WARNING: reverse already refers to: #'clojure.core/reverse in namespace: tutorial.13Namespaces, being replaced by: #'clojure.string/reverse
+; WARNING: replace already refers to: #'clojure.core/replace in namespace: tutorial.13Namespaces, being replaced by: #'clojure.string/replace
+Hello
+nil
+clj꞉tutorial.13Namespaces꞉> 
+; Evaluating file: 13Namespaces.clj
+Hello
+nil
+clj꞉tutorial.13Namespaces꞉> 
+; Evaluating file: 14Macros.clj
+nil
+clj꞉user꞉> 
+; Evaluating file: 14Macros.clj
+nil
+clj꞉tutorial.14Macros꞉> 
+; Evaluating file: 14Macros.clj
+(if true (do (println "hello")))
+clj꞉tutorial.14Macros꞉> 
+(if true (do (println "hello")))
+clj꞉tutorial.14Macros꞉> 
+; Evaluating file: 14Macros.clj
+(if true (do (println "hello")))
+clj꞉tutorial.14Macros꞉> 
+; Evaluating file: 15Watchers.clj
+nil
+clj꞉user꞉> 
+; Evaluating file: 15Watchers.clj
+nil
+clj꞉tutorial.15Watchers꞉> 
+; Evaluating file: 15Watchers.clj
+#'tutorial.15Watchers/Watch
+clj꞉tutorial.15Watchers꞉> 
+; Evaluating file: 15Watchers.clj
+#atom[5 0x1aa3dfc]
+clj꞉tutorial.15Watchers꞉> 
+; Evaluating file: 15Watchers.clj
+:xWatcher #atom[10 0x1d553cc] 5 10
+10
+clj꞉tutorial.15Watchers꞉> 
+; Evaluating file: 15Watchers.clj
+:xWatcher #atom[10 0x10e2b3d] 5 10
+#atom[10 0x10e2b3d]
+clj꞉tutorial.15Watchers꞉> 
+; Evaluating file: 15Watchers.clj
+:xWatcher #atom[10 0x15cba2f] 5 10
+11
+clj꞉tutorial.15Watchers꞉> 
+; Evaluating file: 16Agents.clj
+nil
+clj꞉user꞉> 
+; Evaluating file: 16Agents.clj
+nil
+clj꞉tutorial.16Agents꞉> 
+; Evaluating file: 16Agents.clj
+100
+nil
+clj꞉tutorial.16Agents꞉> 
+; Evaluating file: 16Agents.clj
+100
+100
+nil
+clj꞉tutorial.16Agents꞉> 
+; Evaluating file: 16Agents.clj
+100
+100
+nil
+clj꞉tutorial.16Agents꞉> 
+; Evaluating file: 16Agents.clj
+100
+100
+nil
+clj꞉tutorial.16Agents꞉> 
+; Evaluating file: 16Agents.clj
+100
+100
+101
+101
+101
+()
+clj꞉tutorial.16Agents꞉> 
+; Evaluating file: 16Agents.clj
+100
+100
+101
+nil
+clj꞉tutorial.16Agents꞉> 
+; Evaluating file: 16Agents.clj
+100
+100
+Some time must pass
+101
+nil
+clj꞉tutorial.16Agents꞉> 
+; Evaluating file: 16Agents.clj
+100
+100
+Some time must pass
+101
+nil
+clj꞉tutorial.16Agents꞉> 
+; Evaluating file: 16Agents.clj
+100
+100
+Some time must pass
+101
+nil
+clj꞉tutorial.16Agents꞉> 
+; Evaluating file: 16Agents.clj
+100
+100
+Some time must pass
+101
+102
+nil
+clj꞉tutorial.16Agents꞉> 
+; Evaluating file: 16Agents.clj
+100
+100
+Some time must pass
+101
+102
+nil
+nil
+clj꞉tutorial.16Agents꞉> 
+; Evaluating file: 17References.clj
+nil
+clj꞉user꞉> 
+; Evaluating file: 17References.clj
+#'tutorial.17References/Refs
+clj꞉tutorial.17References꞉> 
+; Evaluating file: 17References.clj
+#ref[{:status :ready, :val 100} 0x27e3ce]
+nil
+clj꞉tutorial.17References꞉> 
+; Evaluating file: 17References.clj
+100
+nil
+clj꞉tutorial.17References꞉> 
+; Evaluating file: 17References.clj
+100
+110
+nil
+clj꞉tutorial.17References꞉> 
+; Evaluating file: 17References.clj
+100
+110
+nil
+clj꞉tutorial.17References꞉> 
+; Evaluating file: 17References.clj
+100
+110
+111
+nil
+clj꞉tutorial.17References꞉> 
+; Evaluating file: 18Challenge.clj
+nil
+clj꞉user꞉> 
+; Evaluating file: 18Challenge.clj
+; Syntax error compiling def at (F:\Repozytoria\clojure-tutorial\tutorial\src\tutorial\18Challenge.clj:3:1).
+; First argument to def must be a Symbol
+; Evaluation of file 18Challenge.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉tutorial.18Challenge꞉> 
+; Syntax error compiling def at (f:\Repozytoria\clojure-tutorial\tutorial\src\tutorial\18Challenge.clj:3:1).
+; First argument to def must be a Symbol
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+#'tutorial.18Challenge/buyer1
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 9StructMaps.clj
+{:PetType dog, :PetName Fido}
+{:PetType cat, :PetName Fifi}
+Fido
+cat
+{:PetType dog, :PetName Max}
+{:PetType cat, :PetName Fifi, :PetAge 10}
+nil
+clj꞉tutorial.9StructMaps꞉> 
+; Evaluating file: 18Challenge.clj
+; Execution error (IllegalArgumentException) at tutorial.18Challenge/eval8541 (form-init6190316581189010240.clj:1).
+; Too many arguments to struct constructor
+; Evaluation of file 18Challenge.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+#'tutorial.18Challenge/buyer1
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+{:AccountValue #ref[{:status :ready, :val 100} 0x475c8c], :BoughtItems #ref[{:status :ready, :val []} 0x174b618]}
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+#'tutorial.18Challenge/buyer1
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+; Syntax error compiling at (F:\Repozytoria\clojure-tutorial\tutorial\src\tutorial\18Challenge.clj:12:20).
+; Unable to resolve symbol: stock in this context
+; Evaluation of file 18Challenge.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+; Syntax error compiling at (F:\Repozytoria\clojure-tutorial\tutorial\src\tutorial\18Challenge.clj:12:20).
+; Unable to resolve symbol: stock in this context
+; Evaluation of file 18Challenge.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+#'tutorial.18Challenge/Buy
+clj꞉tutorial.18Challenge꞉> 
+#'tutorial.18Challenge/Buy
+clj꞉tutorial.18Challenge꞉> 
+; Syntax error compiling at (f:\Repozytoria\clojure-tutorial\tutorial\src\tutorial\18Challenge.clj:12:25).
+; Unable to resolve symbol: merchant in this context
+clj꞉tutorial.18Challenge꞉> 
+; Syntax error compiling at (f:\Repozytoria\clojure-tutorial\tutorial\src\tutorial\18Challenge.clj:12:20).
+; Unable to resolve symbol: itemName in this context
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+#'tutorial.18Challenge/Buy
+clj꞉tutorial.18Challenge꞉> 
+#'tutorial.18Challenge/Buy
+clj꞉tutorial.18Challenge꞉> 
+100
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+#'tutorial.18Challenge/Buy
+clj꞉tutorial.18Challenge꞉> 
+; Syntax error compiling at (f:\Repozytoria\clojure-tutorial\tutorial\src\tutorial\18Challenge.clj:13:16).
+; Unable to resolve symbol: buyer in this context
+clj꞉tutorial.18Challenge꞉> 
+#'tutorial.18Challenge/Buy
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 8Sequences.clj
+(red green blue)
+(yellow red green blue)
+((red green blue) y e l l o w)
+(yellow red green blue)
+[red green blue yellow]
+(red green blue black white)
+(1 2 3 5 4)
+(blue green red)
+red
+(green blue)
+blue
+(1 2 2 3 3 4 5 5)
+nil
+clj꞉tutorial.8Sequences꞉> 
+; Evaluating file: 18Challenge.clj
+#'tutorial.18Challenge/Buy
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+; Execution error (ClassCastException) at tutorial.18Challenge/Buy$fn (18Challenge.clj:13).
+; java.lang.Long cannot be cast to clojure.lang.IFn
+; Evaluation of file 18Challenge.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+; Execution error (ClassCastException) at tutorial.18Challenge/Buy$fn (18Challenge.clj:13).
+; java.lang.Long cannot be cast to clojure.lang.IFn
+; Evaluation of file 18Challenge.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉tutorial.18Challenge꞉> 
+; Execution error (ClassCastException) at tutorial.18Challenge/Buy$fn (18Challenge.clj:13).
+; java.lang.Long cannot be cast to clojure.lang.IFn
+clj꞉tutorial.18Challenge꞉> 
+#'tutorial.18Challenge/Buy
+clj꞉tutorial.18Challenge꞉> 
+QUIT
+clj꞉tutorial.18Challenge꞉> 
+QUIT
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+100
+; Execution error (ClassCastException) at tutorial.18Challenge/Buy$fn (18Challenge.clj:14).
+; java.lang.Long cannot be cast to clojure.lang.IFn
+; Evaluation of file 18Challenge.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉tutorial.18Challenge꞉> 
+#'tutorial.18Challenge/Buy
+clj꞉tutorial.18Challenge꞉> 
+#'tutorial.18Challenge/Buy
+clj꞉tutorial.18Challenge꞉> 
+#'tutorial.18Challenge/Buy
+clj꞉tutorial.18Challenge꞉> 
+100
+; java.lang.ClassCastException: java.lang.Long cannot be cast to clojure.lang.IFn
+clj꞉tutorial.18Challenge꞉> 
+100
+nil
+clj꞉tutorial.18Challenge꞉> 
+100
+clj꞉tutorial.18Challenge꞉> 
+#'tutorial.18Challenge/wishedItemValue
+clj꞉tutorial.18Challenge꞉> 
+#'tutorial.18Challenge/wishedItemValue
+clj꞉tutorial.18Challenge꞉> 
+100
+QUIT
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+; Execution error (ClassCastException) at tutorial.18Challenge/Buy$fn (18Challenge.clj:15).
+; java.lang.Long cannot be cast to clojure.lang.Ref
+; Evaluation of file 18Challenge.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+[pen]
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+{:AccountValue #ref[{:status :ready, :val 99} 0x95afb8], :BoughtItems #ref[{:status :ready, :val [pen]} 0x1839540]}
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+{:AccountValue #ref[{:status :ready, :val 99} 0x450347], :BoughtItems #ref[{:status :ready, :val [pen]} 0x3ff19f]}
+{:AccountValue #ref[{:status :ready, :val 94} 0x450347], :BoughtItems #ref[{:status :ready, :val [pen notebook]} 0x3ff19f]}
+{:AccountValue #ref[{:status :ready, :val 89} 0x450347], :BoughtItems #ref[{:status :ready, :val [pen notebook notebook]} 0x3ff19f]}
+{:AccountValue #ref[{:status :ready, :val 79} 0x450347], :BoughtItems #ref[{:status :ready, :val [pen notebook notebook backpack]} 0x3ff19f]}
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+{:AccountValue #ref[{:status :ready, :val 99} 0x144e79d], :BoughtItems #ref[{:status :ready, :val [pen]} 0xa0e24b]}
+{:AccountValue #ref[{:status :ready, :val 94} 0x144e79d], :BoughtItems #ref[{:status :ready, :val [pen notebook]} 0xa0e24b]}
+{:AccountValue #ref[{:status :ready, :val 89} 0x144e79d], :BoughtItems #ref[{:status :ready, :val [pen notebook notebook]} 0xa0e24b]}
+{:AccountValue #ref[{:status :ready, :val 79} 0x144e79d], :BoughtItems #ref[{:status :ready, :val [pen notebook notebook backpack]} 0xa0e24b]}
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Buyer: nil
+Account value: #ref[{:status :ready, :val 99} 0x33b741]
+Bought items: #ref[{:status :ready, :val [pen]} 0x4f68c6]
+Buyer: nil
+Account value: #ref[{:status :ready, :val 94} 0x33b741]
+Bought items: #ref[{:status :ready, :val [pen notebook]} 0x4f68c6]
+Buyer: nil
+Account value: #ref[{:status :ready, :val 89} 0x33b741]
+Bought items: #ref[{:status :ready, :val [pen notebook notebook]} 0x4f68c6]
+Buyer: nil
+Account value: #ref[{:status :ready, :val 79} 0x33b741]
+Bought items: #ref[{:status :ready, :val [pen notebook notebook backpack]} 0x4f68c6]
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Buyer: nil
+Account value: #ref[{:status :ready, :val 99} 0x16fcac]
+Bought items: #ref[{:status :ready, :val [pen]} 0x130929c]
+
+Buyer: nil
+Account value: #ref[{:status :ready, :val 94} 0x16fcac]
+Bought items: #ref[{:status :ready, :val [pen notebook]} 0x130929c]
+
+Buyer: nil
+Account value: #ref[{:status :ready, :val 89} 0x16fcac]
+Bought items: #ref[{:status :ready, :val [pen notebook notebook]} 0x130929c]
+
+Buyer: nil
+Account value: #ref[{:status :ready, :val 79} 0x16fcac]
+Bought items: #ref[{:status :ready, :val [pen notebook notebook backpack]} 0x130929c]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Account value: 79
+Bought items: [pen notebook notebook backpack]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 8Sequences.clj
+(red green blue)
+(yellow red green blue)
+((red green blue) y e l l o w)
+(yellow red green blue)
+[red green blue yellow]
+(red green blue black white)
+(1 2 3 5 4)
+(blue green red)
+red
+(green blue)
+blue
+(1 2 2 3 3 4 5 5)
+nil
+clj꞉tutorial.8Sequences꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Account value: 79
+Bought items: [pen notebook notebook backpack]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Account value: 79
+Bought items: [pen notebook notebook backpack]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Account value: 79
+Bought items: [pen notebook notebook backpack]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Account value: 79
+Bought items: [pen notebook notebook backpack]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Account value: 79
+Bought items: [pen notebook notebook backpack]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Insufficient funds!
+Account value: 89
+Bought items: [pen notebook notebook]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: #function[tutorial.18Challenge/Buy/fn--9629/fn--9630]
+Bought items: [pen]
+
+; Execution error (ClassCastException) at tutorial.18Challenge/Buy$fn (18Challenge.clj:13).
+; tutorial.18Challenge$Buy$fn__9629$fn__9630 cannot be cast to java.lang.Number
+; Evaluation of file 18Challenge.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Insufficient funds!
+Account value: 89
+Bought items: [pen notebook notebook]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: #function[tutorial.18Challenge/Buy/fn--9701/fn--9702]
+Bought items: [pen]
+
+; Execution error (ClassCastException) at tutorial.18Challenge/Buy$fn (18Challenge.clj:13).
+; tutorial.18Challenge$Buy$fn__9701$fn__9702 cannot be cast to java.lang.Number
+; Evaluation of file 18Challenge.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Insufficient funds!
+Account value: 89
+Bought items: [pen notebook notebook]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: #function[tutorial.18Challenge/Buy/fn--9793/fn--9794]
+Bought items: [pen]
+
+; Execution error (ClassCastException) at tutorial.18Challenge/Buy$fn (18Challenge.clj:13).
+; tutorial.18Challenge$Buy$fn__9793$fn__9794 cannot be cast to java.lang.Number
+; Evaluation of file 18Challenge.clj failed: class clojure.lang.Compiler$CompilerException
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Insufficient funds!
+Account value: 89
+Bought items: [pen notebook notebook]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Insufficient funds!
+Account value: 89
+Bought items: [pen notebook notebook]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Insufficient funds!
+Account value: 89
+Bought items: [pen notebook notebook]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Insufficient funds!
+Account value: 89
+Bought items: [pen notebook notebook]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Insufficient funds!
+Account value: 89
+Bought items: [pen notebook notebook]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Insufficient funds!
+Account value: 89
+Bought items: [pen notebook notebook]
+
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 100
+Bought items: []
+
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Insufficient funds!
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 100
+Bought items: []
+
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Insufficient funds!
+nil
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 100
+Bought items: []
+
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Insufficient funds!
+Account value: 89
+Bought items: [pen notebook notebook]
+
+[pen notebook notebook notebook]
+clj꞉tutorial.18Challenge꞉> 
+; Evaluating file: 18Challenge.clj
+Account value: 100
+Bought items: []
+
+Account value: 99
+Bought items: [pen]
+
+Account value: 94
+Bought items: [pen notebook]
+
+Account value: 89
+Bought items: [pen notebook notebook]
+
+Insufficient funds!
+Account value: 89
+Bought items: [pen notebook notebook]
+
+[pen notebook notebook pen]
+clj꞉tutorial.18Challenge꞉> 
